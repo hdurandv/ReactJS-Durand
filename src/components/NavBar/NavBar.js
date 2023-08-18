@@ -15,11 +15,8 @@ const NavBar = () => {
         <Link className="li" to="/contact">
           Contacto
         </Link>
-        <Link className="li" to="/category/Alien">
+        <Link className="li" to="/product">
           Productos
-        </Link>
-        <Link className="li" to="/category/Human">
-          Human
         </Link>
       </ul>
     </nav>
