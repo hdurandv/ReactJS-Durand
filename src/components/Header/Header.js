@@ -3,7 +3,7 @@ import "./Header.css";
 
 import { Link } from "react-router-dom";
 
-import imagen from "./66133.jpg";
+import imagen from "./logo_web.jpg";
 
 const Header = () => {
   return (
