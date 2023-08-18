@@ -1,25 +1,9 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import { useParams } from "react-router-dom";
-
-import CardUser from "../../components/CardUser/CardUser";
+import React from "react";
 
 const DetailPage = () => {
-  const [char, setChar] = useState([]);
-
-  console.log(char);
-
-  let { id } = useParams();
-
-  useEffect(() => {
-    axios(`https://rickandmortyapi.com/api/character/${id}`).then((json) =>
-      setChar(json.data)
-    );
-  }, [id]);
-
   return (
-    <div style={{ display: "flex", justifyContent: "center", margin: 20 }}>
-      {char.id ? <CardUser data={char} /> : null}
+    <div>
+      <h1>Detalle del producto</h1>
     </div>
   );
 };

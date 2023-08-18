@@ -13,8 +13,9 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
+//import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Link } from 'react-router-dom';
 
 function Copyright() {
   return (
@@ -34,7 +35,7 @@ const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
 
-export default function Album() {
+export default function ProductPage() {
   return (
     <ThemeProvider theme={defaultTheme}>
 
@@ -74,7 +75,10 @@ export default function Album() {
                     </Typography>
                   </CardContent>
                   <CardActions>
+                  <Link to="/detail" style={{ textDecoration: 'none' }}>
                     <Button size="small">Detalles</Button>
+                 </Link>
+                
                   </CardActions>
                 </Card>
               </Grid>
