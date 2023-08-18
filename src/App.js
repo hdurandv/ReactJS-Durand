@@ -12,7 +12,11 @@ import HomePage from "./pages/HomePage/HomePage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import DetailPage from "./pages/DetailPage/DetailPage";
+<<<<<<< HEAD
 import ProductPage from "./pages/Producto/ProductPage";
+=======
+import CategoryPage from "./pages/CategoryPage/CategoryPage";
+>>>>>>> 37db76f4c7bd0f782be839fa14bcbdabe5128222
 
 const App = () => {
   return (
@@ -25,7 +29,11 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/details/:id" element={<DetailPage />} />
+<<<<<<< HEAD
           <Route path="/Producto" element={<ProductPage />} />
+=======
+          <Route path="/category/:speciesId" element={<CategoryPage />} />
+>>>>>>> 37db76f4c7bd0f782be839fa14bcbdabe5128222
         </Routes>
       </div>
     </Router>
