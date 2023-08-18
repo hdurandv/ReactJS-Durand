@@ -5,8 +5,8 @@ import ListUser from "../../components/ListUser/ListUser";
 const HomePage = () => {
   return (
     <div>
-      <h1>Characters Rick & Morty!</h1>
-      <ListUser />
+      <h1>Página de Inicio</h1>
+      
     </div>
   );
 };

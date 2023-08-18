@@ -7,16 +7,16 @@ const NavBar = () => {
     <nav className="nav-container">
       <ul className="nav-ul">
         <Link className="li" to="/">
-          Home
+          Inicio
         </Link>
         <Link className="li" to="/about">
-          About
+          Nosotros
         </Link>
         <Link className="li" to="/contact">
-          Contact
+          Contacto
         </Link>
         <Link className="li" to="/category/Alien">
-          Alien
+          Productos
         </Link>
         <Link className="li" to="/category/Human">
           Human
